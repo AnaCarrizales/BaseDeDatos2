@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WPFDBParte2"
         mc:Ignorable="d"
-        Title="AlumnosDB"  Height="700" Width="900" Background="Aquamarine" WindowStartupLocation="CenterScreen" ResizeMode="NoResize">
+        Title="Alumnos Manzanillo"  Height="700" Width="900" Background="Aquamarine" WindowStartupLocation="CenterScreen" ResizeMode="NoResize">
     <Window.Resources>
         <Style TargetType="TextBlock">
             <Setter Property="FontSize" Value="20"/>
@@ -20,7 +20,7 @@
     </Window.Resources>
     <DockPanel Name="dockMain" VerticalAlignment="top" HorizontalAlignment="Center" LastChildFill="False">
         <StackPanel>
-            <Label Content="AlumnosDB" HorizontalAlignment="Center" FontSize="36" FontWeight="Bold"></Label>
+            <Label Content="Alumnos Manzanillo" HorizontalAlignment="Center" FontSize="36" FontWeight="Bold"></Label>
             <WrapPanel>
                 <TextBlock Text="Id Alumno : "/>
                 <TextBox Name="txtId" />
