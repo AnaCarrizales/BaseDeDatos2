@@ -119,7 +119,7 @@ namespace WPFDBParte2
                 txtNombre.Text = row["Nombre"].ToString();
                 cbBachillerato.Text = row["cbBachillerato"].ToString();
                 txtCorreo.Text = row["Correo"].ToString();
-                txtNoseguro.Text = row["Noseguro"].ToString();
+                txtNoseguro.Text = row["Noseguro"].ToString();//Hi
                 txtId.IsEnabled = false;
                 btnNuevo.Content = "Actualizar";
             }
